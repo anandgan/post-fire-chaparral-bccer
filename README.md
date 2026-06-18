@@ -1,52 +1,39 @@
 # Post-Fire Vegetation Response in Masticated Chaparral at BCCER
 
-**M.S. Data Science & Analytics Thesis Project**  
-California State University, Chico | Expected 2026
+**M.S. Data Science & Analytics Thesis**  
+California State University, Chico • 2026
 
-**Author**: Anand Kumar Gangavarapu  
-**Advisors**: Dr. Kathy Gray (Chair: Dr. Nicholas Lytal)
+**Anand Kumar Gangavarapu**  
+Advisors: Dr. Kathy Gray | Dr. Nicholas Lytal
 
 ---
 
 ## Project Overview
 
-This project investigates how a **masticated chaparral** site responded to the 2024 Park Fire (which burned ~95% of the reserve). Using **18 permanent transects** with paired pre-fire (2024) and post-fire (2025) data, we examine:
+This project studies how a masticated chaparral site recovered after the **2024 Park Fire** (which burned ~95% of BCCER).
+
+**18 permanent transects** were surveyed before and after the fire to understand vegetation change.
 
 ### Research Questions
-1. How did woody and herbaceous cover change after fire?
-2. Did native and non-native species respond differently?
-3. Did higher fuel consumption predict greater vegetation loss?
-
-### Key Findings (Summary)
-- Significant structural reset: **Woody cover declined sharply** across transects (average ~37% loss).
-- Herbaceous response was more variable.
-- Strong relationship between fuel consumption and vegetation loss.
+- How did woody and herbaceous cover change?
+- Did native vs non-native species respond differently?
+- Did higher fuel consumption cause more vegetation loss?
 
 ---
 
-## 📁 Repository Structure
+## Repository Contents
 
-
-
----
-
-## 🛠️ Technologies Used
-- **Python** (pandas, numpy, scipy, matplotlib/seaborn)
-- Paired statistical tests (Wilcoxon, t-tests)
-- Linear regression
-- Geospatial context (BCCER, California)
+- `notebooks/bccer_postfire_analysis.ipynb` → Analysis code
+- `presentation/presentation.pdf` → Thesis presentation slides
+- `data/processed/` → Summary results
 
 ---
 
-## 📊 Results Highlights
-- Clear evidence of **structural reset** in woody vegetation.
-- Variable herbaceous recovery and invasion dynamics.
-- Fuel consumption as a significant predictor of shrub loss.
+## Technologies
+Python • Pandas • Scipy • Matplotlib • Jupyter
 
 ---
 
-## 🚀 How to Run
+**Status:** In Progress
 
-```bash
-pip install -r requirements.txt
-jupyter notebook
+View the full presentation: [presentation/presentation.pdf](presentation/presentation.pdf)
